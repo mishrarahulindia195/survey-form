@@ -1,0 +1,144 @@
+body{
+  position:relative;
+  background-size:cover;
+  width:100%;
+}
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  line-height:1;
+}
+#container{
+  background-color:#66c2ff;
+  text-align:center;
+  color:white;
+}
+
+#h1{
+  background:grey;
+  color:white;
+  padding:10px;
+}
+#description{
+  font-size:20px;
+  padding:10px;
+  text-align:center;
+}
+#survey-form{
+ width:100vw;
+  max-width:600px;
+  margin:10px auto;
+  background-color:white;
+  color:#66c2ff;
+  font-size:20px;
+  text-align:left;
+  padding:35px;
+  border-radius:10px;
+  
+}
+#name{
+  width:500px;
+  padding:10px;
+  border-radius:5px;
+  border-color:#66c2ff;
+  font-size:15px;
+}
+#email{
+  width:500px;
+  padding:10px;
+  border-radius:5px;
+  border-color:#66c2ff;
+  font-size:15px;
+}
+#number{
+  width:500px;
+  padding:10px;
+  border-radius:5px;
+  border-color:#66c2ff;
+  font-size:15px;
+}
+#age{
+  width:500px;
+  padding:10px;
+  border-radius:5px;
+  border-color:#66c2ff;
+  font-size:15px;
+}
+#dropdown{
+  width:500px;
+  padding:10px;
+  border-radius:5px;
+  border-color:#66c2ff;
+  font-size:15px;
+}
+#comments{
+  width:500px;
+  height:100px;
+  padding:10px;
+  border-radius:5px;
+  border-color:#66c2ff;
+  font-size:15px;
+}
+#submit{
+  width:500px;
+  padding:10px;
+  background-color:#66c2ff;
+  border-radius:10px;
+  border-color:orange;
+  font-size:18px;
+}
+#title{
+  color:#66c2ff;
+}
+#headings,#name-label,#email-label,#number-label,#age-label{
+  display:inline-block;
+  padding:12px 12px 12px 12px;
+}
+
+#submit:hover {
+  background-color:green;
+}
+
+@media screen and (max-width:600px){
+  #survey-form{
+ width:90vw;
+  }
+}
+
+@media screen and (max-width:600px){
+  #container{
+  width:100%;
+  background-color:#66c2ff;
+  text-align:center;
+  color:white;
+}
+    #name {
+    width:100%;
+  }
+  
+   #email {
+    width:100%;
+  }
+  
+   #age {
+    width:100%;
+  }
+  
+   #number {
+    width:100%;
+  }
+  
+  #dropdown {
+    width:100%;
+  }
+  
+   #comments {
+    width:100%;
+  }
+   
+  #submit{
+    width:100%;
+  }
+}
+
